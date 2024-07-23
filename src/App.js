@@ -4,7 +4,6 @@ import Navbar from './Components/Navbar'
 import TextFrom from './Components/TextFrom';
 import React, { useState } from 'react';
 import Alert from './Components/Alert';
-import Footer from './Components/Footer';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -56,7 +55,6 @@ function App() {
         </div>
 
         </Router>
-        <Footer/>
 
 </>
   );
